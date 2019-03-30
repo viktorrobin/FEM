@@ -1,8 +1,24 @@
 # FEM
 Finite Element Modelling in Fortran for structural problems, solid mechanics, geotechnic and artificially structured soil
 
-
 ![FEM](figures/PostProcessing-FieldDisp2-small.png)
+
+
+## Yield criterion implemented
+
+- Von Mises
+- Mohr-Coulomb
+- Tresca
+- Drucker-Prager
+- Cam-Clay modified
+- [MAAS (Robin et al., 2015)](https://ore.exeter.ac.uk/repository/bitstream/handle/10871/20697/An%20Efective%20Constitutive%20Model%20for%20Lime%20Treated%20Soils.pdf?sequence=2&isAllowed=y)
+
+## Model MASS
+
+![MAAS](figures/MCC-DP-hybrid-1-01.png)
+
+- [MAAS (Robin et al., 2015)](https://ore.exeter.ac.uk/repository/bitstream/handle/10871/20697/An%20Efective%20Constitutive%20Model%20for%20Lime%20Treated%20Soils.pdf?sequence=2&isAllowed=y)
+- [Robin, 2014](https://core.ac.uk/download/pdf/43094182.pdf)
 
 ## Code FEMASS: Instructions
 This code includes the pre-processing, processing, and post-processing of geotechnical problems.
