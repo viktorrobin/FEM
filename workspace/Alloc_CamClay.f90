@@ -1,0 +1,8 @@
+allocate( volspegp(ntotg))  
+allocate( epstnp(ntotg))
+! allocate( depstnp(ntotg))    
+allocate( epstnp_pre(ntotg))
+allocate( yieldgp(ntotg))  
+allocate( Deigp(ntotg))  
+allocate( deviatoric_stress(ntotg)) 
+allocate( effective_mean_stress(ntotg))

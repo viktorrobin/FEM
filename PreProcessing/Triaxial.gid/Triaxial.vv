@@ -1,0 +1,41 @@
+BeginZE C:\Users\vpmr201\Dropbox\These\Numerical_modelling\FEM_CamClay_PostProc\PreProcessing\Triaxial.gid\Triaxial.vv
+   x -33.968654632568359 51.468654632568359
+   y 37.916667938232422 -2.9166684150695801
+   z -61.25 61.25
+   e 20.416666030883789
+   v 0 0 0
+   r 1
+   m 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1
+   c 8.75 17.5 0
+   pd 0
+   pno 0
+   pfo 0
+   pf 4
+   pv 0
+   NowUse 1
+   DrawingType 0
+   LightVector 90 90 150 0
+   OGLShadow(UseShadows) 0
+   OGLShadow(RenderMode) RenderNice
+   OGLShadow(ShadowBias) -0.002
+   OGLShadow(AmbientShadows) 1
+   OGLShadow(UseFBO) 1
+   OGLShadow(FBOSize) 2048
+   OGLShadow(DimmedLightFactor) 0.02
+   OGLStereo(UseStereo) 0
+   OGLStereo(RelativeEyeDistance) 1
+   OGLStereo(FlipEyes) 0
+   OGLStereo(StereoMode) AnaglyphColors
+   OGLStereo(EyeDistance) 0.075
+   OGLStereo(LeftEyeDistance) 1 0 0 1
+   OGLStereo(RightEyeDistance) 0 1 1 1
+EndZE C:\Users\vpmr201\Dropbox\These\Numerical_modelling\FEM_CamClay_PostProc\PreProcessing\Triaxial.gid\Triaxial.vv
+
+BeginMirror
+   Mirror 0 Angle 0.0 AngleFake -15.0 SizeFactor 2.0 HeightOffset 0.25 Color #d9e5f24d Backlight Off EdgeStyle No Type Scene DrawMode Mirror
+EndMirror
+
+BeginInfo
+eJzNU8tu2zAQvOsr9hgDiiE7TmoIRQG7VgyhfgS28ujJoKW1Q4QiBZKK5Qb59y4pGz206KFogV6k1T5mOTNUloth97rb60H2QsFF+9EJgkztBfS6H2Jg5gUL2CkNDPYoUfMcNMoCNeowGPnqHW9QUEvJLBRocs0ry5WEC+gPOnEAANPTJC8rgSVKy1xD2E7etpP9QehaJ6reChzXux3qGI5ofHZtaaFqsz6xmo5HIXxWZaUM99tQMhos4OKBG8s6IUw0O4BV8MhloQ4hLCuU0xmYuqqUtiE4mHvD5Z5WE5IgjltuTQxDYliE9NprROmCragRmCwgAiaqZxb+mI1glOd1WQtP6YQQtQjRGSH6HcJVHyZY2Wc/63uGjq/MuRhTxjXSkrrhgjN9hK0XoU1HUDsrBDuS2FFzuWs6HkC9npNNdNnsOlAJJtEEU2UJ+B8bBrmqjn/fJJLpj026GfzKpd5Ni0HvEwhF/4dRgddBeC8eksVkuYrhbc5zrYzaWRJCkzyey7sXmlqSVeKappP07N57O71ap8sFse32upE3LF3fzUZfIV3cLlfzUearb54TyQHDsFXDBV4MenslIArptjj+V/0QTEvcVY3/OUGqrt/48fETJK3UJNqtVtJCez1cdZbO02xNC93HnDWQYWNrjbDm35BOGfUH50rSXj0DqSx4juRYPxoMf6o+oLan8vWNq45eGRfunsErL+hgJZaK/DB+QQTz8dGiOcHwsi7hoPSLO6usyy1qUDvAE3gM1+Tdl8ATS56yZOHE9MefzjaU2Gz3mp3jigmkH6zY2JaTyz+mi405sGrzzKUlnOnsKfa2rpMVeRMHS3qSHXSyc0jOwDxZ3LvUd+v6wOs=
+
+EndInfo

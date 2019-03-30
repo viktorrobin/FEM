@@ -1,0 +1,56 @@
+BOOK:Stage 1
+NUMBER: 1 CONDITION: Prescribed_Displacements
+CONDTYPE: over points
+CONDMESHTYPE: over nodes
+QUESTION: Type#CB#(01,10,11)
+VALUE: 01
+help: 10=X, 01=Y, 11=X+Y
+QUESTION: X-Value
+VALUE: 0.0
+QUESTION: Y-Value
+VALUE: 0.0
+END CONDITION
+NUMBER: 2 CONDITION: Point_Load
+CONDTYPE: over points
+CONDMESHTYPE: over nodes
+QUESTION: FX-Value#UNITS#
+VALUE: 0.0N
+QUESTION: FY-Value#UNITS#
+VALUE: 0.0N
+END CONDITION
+NUMBER: 3 CONDITION: Distributed_Loading
+CONDTYPE: over lines
+CONDMESHTYPE: over face elements
+QUESTION: Normal-Pressure#UNITS#
+VALUE: 0kPa
+QUESTION: Tangent-Pressure#UNITS#
+VALUE: 0kPa
+END CONDITION
+BOOK:Stage 2
+NUMBER: 4 CONDITION: Prescribed_Displacements_S2
+CONDTYPE: over points
+CONDMESHTYPE: over nodes
+QUESTION: Type_S2#CB#(01,10,11)
+VALUE: 01
+help: 01=X, 10=Y, 11=X+Y
+QUESTION: X-Value_S2
+VALUE: 0.0
+QUESTION: Y-Value_S2
+VALUE: 0.0
+END CONDITION
+NUMBER: 5 CONDITION: Point_Load_S2
+CONDTYPE: over points
+CONDMESHTYPE: over nodes
+QUESTION: FX-Value_S2#UNITS#
+VALUE: 0.0N
+QUESTION: FY-Value_S2#UNITS#
+VALUE: 0.0N
+END CONDITION
+NUMBER: 6 CONDITION: Distributed_Loading_S2
+CONDTYPE: over lines
+CONDMESHTYPE: over face elements
+QUESTION: Normal-Pressure_S2#UNITS#
+VALUE: 0Pa
+QUESTION: Tangent-Pressure_S2#UNITS#
+VALUE: 0Pa
+END CONDITION

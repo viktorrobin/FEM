@@ -1,0 +1,59 @@
+PROBLEM DATA
+title: General Data
+QUESTION: Problem_name
+VALUE: Test mega
+QUESTION: Yield_Criterion#CB#(Tresca,Von_Mises,Mohr-Coulomb,Drucker-Prager,Modified_Cam_Clay,Lime_Treated_Soils)
+VALUE: Modified_Cam_Clay
+QUESTION: No_Gauss#CB#(2,3)
+VALUE: 3
+QUESTION: Type_of_problem#CB#(Plane-Stress,Plane-Strain,Axisymmetric)
+VALUE: Axisymmetric
+QUESTION: Tolerance
+VALUE: 1e-6
+QUESTION: Solver_type#CB#(Conjugate_gradient)
+VALUE: Conjugate_gradient
+QUESTION: Algorithm#CB#(Initial_Stiffness_Method)
+VALUE: Initial_Stiffness_Method
+TITLE: Stage 1
+QUESTION: Number_of_increments_S1
+VALUE: 20
+QUESTION: Prescribed_Disp#CB#(0,1)
+VALUE: 1
+QUESTION: Point_Load#CB#(0,1)
+VALUE: 
+QUESTION: Distributed_Loading#CB#(0,1)
+VALUE: 1
+QUESTION: Gravity_Loading#CB#(0,1)
+VALUE: 0
+DEPENDENCIES: (0,HIDE,theta,#current#,HIDE,g_force,#current#)
+DEPENDENCIES: (1,RESTORE,theta,#current#,RESTORE,g_force,#current#)
+QUESTION: theta
+VALUE: 0.0
+help: Angle between gravity axis and positive y-axis. Anticlockwise. Degrees.
+QUESTION: g_force#UNITS#
+VALUE: 9.81m/s^2
+TITLE: Stage 2
+QUESTION: Stage_2#CB#(0,1)
+VALUE: 1
+DEPENDENCIES: (0,HIDE,Number_of_increments_S2,#current#,HIDE,Prescribed_Disp_S2,#current#,HIDE,Point_Load_S2,#current#,HIDE,Distributed_Loading_S2,#current#,HIDE,theta_S2,#current#,HIDE,g_force_S2,#current#,HIDE,Gravity_Loading_S2,#current#)
+DEPENDENCIES: (1,RESTORE,Number_of_increments_S2,#current#,RESTORE,Prescribed_Disp_S2,#current#,RESTORE,Point_Load_S2,#current#,RESTORE,Distributed_Loading_S2,#current#,RESTORE,Gravity_Loading_S2,#current#)
+QUESTION: Number_of_increments_S2
+VALUE: 20
+QUESTION: Prescribed_Disp_S2#CB#(0,1)
+VALUE: 1
+QUESTION: Point_Load_S2#CB#(0,1)
+VALUE: 
+QUESTION: Distributed_Loading_S2#CB#(0,1)
+VALUE: 
+QUESTION: Gravity_Loading_S2#CB#(0,1)
+VALUE: 0
+DEPENDENCIES: (0,HIDE,theta_S2,#current#,HIDE,g_force_S2,#current#)
+DEPENDENCIES: (1,RESTORE,theta_S2,#current#,RESTORE,g_force_S2,#current#)
+QUESTION: theta_S2
+VALUE: 0.0
+help: Angle between gravity axis and positive y-axis. Anticlockwise. Degrees.
+QUESTION: g_force_S2#UNITS#
+VALUE: 9.81m/s^2
+END PROBLEM DATA
+INTERVAL DATA
+END INTERVAL DATA

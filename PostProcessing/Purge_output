@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# http://forums.macrumors.com/showthread.php?t=475143
+# chmod 755 Run
+
+#Concatenate the three files
+#cd $f
+
+#cd PostProcessing/Output/output_increm
+
+#echo "The script you are running has basename `basename $0`, dirname `dirname $0`"
+#echo "The present working directory is `pwd`"
+
+cd "`dirname $0`"
+cd Output/output_increm
+rm -rfv displacements/* plastic_strains/* reactions/* specific_volume/* strains/* stresses/* 
+
+#Erase useless files
+exit 0
