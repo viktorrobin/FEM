@@ -3,6 +3,7 @@ Finite Element Modelling in Fortran for structural problems, solid mechanics, ge
 
 ![FEM](figures/PostProcessing-FieldDisp2-small.png)
 
+Based on *Based on Finite Elements in Plasticity: Theory and Practice* by Owen & Hinton
 
 ## Yield criterion implemented
 
