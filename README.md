@@ -1,6 +1,9 @@
 # FEM
 Finite Element Modelling in Fortran for structural problems, solid mechanics, geotechnic and artificially structured soil
 
+
+![FEM](figures/PostProcessing-FieldDisp2-eps-converted-to.pdf)
+
 ## Code FEMASS: Instructions
 This code includes the pre-processing, processing, and post-processing of geotechnical problems.
 
